@@ -43,6 +43,7 @@
     "node_modules",
     "examples",
     "cloudflare-env.d.ts",
-    "db/index.ts"
+    "db/index.ts",
+    "build/sites-vite-plugin.ts"
   ]
 }
