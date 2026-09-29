@@ -27,7 +27,7 @@ const faqs = [
 ];
 
 function Brand({ light = false }: { light?: boolean }) {
-  return <a href="#top" className={`brand ${light ? "brand-light" : ""}`} aria-label="OUNJEEH home"><span className="brand-mark" aria-hidden="true"><Leaf size={22} strokeWidth={2.4} /></span><span className="brand-word"><strong>OUNJEEH</strong><small>Good Food. Better Living.</small></span></a>;
+  return <a href="#top" className={`brand ${light ? "brand-light" : ""}`} aria-label="OUNJEEH home"><img className="brand-logo" src="/ounjeeh-logo.png" alt="OUNJEEH logo" /></a>;
 }
 
 export default function Home() {
